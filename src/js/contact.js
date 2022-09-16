@@ -10,7 +10,8 @@ const charCounter = document.querySelector('.valid-feedback');
 
 const emailPattern =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const API_URL = '<YOUR_FORM_URL_HERE>';
+// const API_URL = '<YOUR_FORM_URL_HERE>';
+const API_URL = 'https://formbold.com/s/9kpq3';
 
 const warningClass = 'is-invalid';
 const successClass = 'is-valid';
@@ -53,9 +54,9 @@ messageInput.addEventListener('keyup', e => {
 function checkAllInputs() {
   submitButton.disabled =
     nameInput.value.length > 1 &&
-    emailInput.value.match(emailPattern) &&
-    subjectInput.value.length > 2 &&
-    messageInput.value.split(' ').length > 5
+      emailInput.value.match(emailPattern) &&
+      subjectInput.value.length > 2 &&
+      messageInput.value.split(' ').length > 5
       ? false
       : true;
 }
