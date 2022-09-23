@@ -8,4 +8,4 @@
 
 # Mobile view
 
-![portpolio](https://github.com/sonimohit481/Portfolio/blob/main/src/img/Mobile.png | alignment=center)
+![portpolio](https://github.com/sonimohit481/Portfolio/blob/main/src/img/Mobile.png)
