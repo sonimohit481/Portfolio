@@ -19,4 +19,4 @@ Here is My Portfolio images
 
 # Mobile view
 
-![portpolio](https://github.com/sonimohit481/Portfolio/blob/main/src/img/Desktop.png)
+![portpolio](https://github.com/sonimohit481/Portfolio/blob/main/src/img/Mobile.png)
